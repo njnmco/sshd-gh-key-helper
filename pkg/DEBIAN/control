@@ -1,0 +1,11 @@
+Package: sshd-gh-key-helper
+Version: 1.0-1
+Section: base
+Priority: optional
+Architecture: all
+Depends: curl, openssh-server
+Maintainer: Neal Fultz <nfultz@gmail.com>
+Description: sshd Github Key Helper
+ This enables sshd to retrieve public keys from
+ github.com.
+
